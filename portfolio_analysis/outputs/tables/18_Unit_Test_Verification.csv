@@ -1,0 +1,19 @@
+Check_ID,Verification_Test_Name,Status,Diagnostic_Details
+1,Synthetic Known-Solution Return Calculation,PASSED,"Computed=[0.10000000000000009, -0.09999999999999998], Expected=[0.1, -0.1]"
+2,Annualization Scaling Consistency (252 Days),PASSED,diag(Cov*252) == (Std*sqrt(252))^2 verified to 1e-12
+3,Portfolio Variance Quadratic Identity,PASSED,Diff = 1.73e-18
+4,Weight Sum and Open-Interval Epsilon Bounds,PASSED,"All optimized risky portfolios within [0.0001, 0.9999]"
+5,Target Annual Return (12.79%) Feasibility Check,PASSED,"Target 12.79% in [2.05%, 14.07%]"
+6,Analytic vs. Numerical Target Weight Agreement,PASSED,"|w_analytic - w_num| = 0.00e+00, Return error = 0.00e+00"
+7,Analytic vs. Numerical GMV Weight Agreement,PASSED,|w_gmv_analytic - w_gmv_num| = 3.58e-09
+8,Optimizer Convergence and Constraint Residuals,PASSED,Max constraint residual = 0.00e+00
+9,VaR / ES Positive Loss Sign Convention,PASSED,"95% VaR on [-5%, +5%] uniform = 4.50%"
+10,Coherence Property: Expected Shortfall >= VaR,PASSED,Min(ES - VaR) = 7.3165e-04 >= 0
+11,Synthetic Known-Beta OLS Regression Recovery,PASSED,"Recovered Beta=1.350000, Alpha=0.000500"
+12,Zero Look-Ahead Bias & Strict Temporal Partition,PASSED,In-Sample Max=2026-07-31 < OOS Min=2026-08-03
+13,Theoretical Buy-and-Hold NAV Accounting Identity,PASSED,Max |Sum(Asset_Values) - NAV| = 0.00e+00 VND
+14,Natural Buy-and-Hold Weight Drift Verification,PASSED,Std(DCM Drifted Weight) = 0.5494% > 0
+15,Practical Execution Positions + Cash == NAV Identity,PASSED,Max discrepancy = 0.00e+00 VND
+16,Non-Negative Cash Ledger Under Transaction Costs,PASSED,"Min Cash (Portfolio P) = 375,675 VND, (Equal Weight) = 766,260 VND"
+17,Bank Deposit ACT/365 Calendar-Day Interest Formula,PASSED,"Elapsed=88 days, Ending Deposit=50,843,835.62 VND"
+18,Rebalance Signal Date Precedes Execution Date,PASSED,Signal=2026-10-30 < Earliest Execution=2026-11-02

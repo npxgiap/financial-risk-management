@@ -1,0 +1,6 @@
+Plan_Type,Asset,Current Quantity,Reference Price,Current Value,Current Weight,Proposed Weight,Model Target Weight,Proposed Quantity,Quantity to Buy or Sell,Estimated Trade Value,Estimated Costs,Post-Trade Cash
+Practical Board-Lot Execution Plan (Option 3A: Updated Portfolio P),VCB,0.0,56300.0,0.0,0.0,0.31817020297431686,0.3574661602751973,300.0,300.0,16890000.0,25335.0,2836160.0
+Practical Board-Lot Execution Plan (Option 3A: Updated Portfolio P),DCM,1400.0,33300.0,46620000.0,0.8782175762381677,0.6272982687415483,0.6425338397248027,1000.0,-400.0,-13320000.0,33300.0,2836160.0
+Practical Board-Lot Execution Plan (Option 3A: Updated Portfolio P),Cash Ledger (VND),1.0,1.0,6464795.0,0.12178242376183236,0.05342697471093182,0.0,1.0,0.0,-3628635.0,0.0,2836160.0
+Theoretical Fractional Weight Plan (Option 3A: Updated Portfolio P),VCB,,56300.0,4923582.8720980035,0.09317140975645356,0.3574661602751973,0.3574661602751973,,,13966485.107835004,0.0,0.0
+Theoretical Fractional Weight Plan (Option 3A: Updated Portfolio P),DCM,,33300.0,47920770.18607786,0.9068285902435463,0.6425338397248027,0.6425338397248027,,,-13966485.107834999,0.0,0.0

@@ -1,0 +1,133 @@
+{
+  "config": {
+    "ASSETS": [
+      "VCB",
+      "DCM"
+    ],
+    "ASSET_NAMES": {
+      "VCB": "Joint Stock Commercial Bank for Foreign Trade of Vietnam (Vietcombank)",
+      "DCM": "PetroVietnam Ca Mau Fertilizer JSC (Dam Ca Mau)",
+      "VNINDEX": "Ho Chi Minh Stock Exchange Index (VN-Index)"
+    },
+    "MARKET_BENCHMARK": "VNINDEX",
+    "IN_SAMPLE_START": "2023-07-31",
+    "IN_SAMPLE_END": "2026-07-31",
+    "OUT_OF_SAMPLE_START": "2026-08-03",
+    "OUT_OF_SAMPLE_END": "2026-10-30",
+    "INVESTMENT_HORIZON_YEARS": 3,
+    "TARGET_ANNUAL_RETURN": 0.1279,
+    "RISK_FREE_ANNUAL_RATE": 0.045,
+    "DEPOSIT_ANNUAL_RATE": 0.07,
+    "RISK_AVERSION": 2.0,
+    "INITIAL_CAPITAL_VND": 50000000.0,
+    "TRADING_DAYS_PER_YEAR": 252,
+    "WEIGHT_EPSILON": 0.0001,
+    "CONFIDENCE_LEVELS": [
+      0.95,
+      0.99
+    ],
+    "RANDOM_SEED": 42,
+    "PRIMARY_ADJUSTED_PROVIDER": "DNSE Entrade OHLC API (Vietnam Exchange Official Adjusted Feed)",
+    "SECONDARY_UNADJUSTED_PROVIDER": "Yahoo Finance (yfinance VCB.VN, DCM.VN Unadjusted Close & Volume)",
+    "DNSE_PRICE_MULTIPLIER_VND": 1000.0,
+    "INDEX_PRICE_MULTIPLIER": 1.0,
+    "TIMEZONE": "Asia/Ho_Chi_Minh",
+    "ENTRY_PRICE_CONVENTION": "Closing price on actual entry session (baseline NAV established at entry close)",
+    "BUY_COMMISSION_RATE": 0.0015,
+    "SELL_COMMISSION_RATE": 0.0015,
+    "SELL_TAX_RATE": 0.001,
+    "BOARD_LOT_SIZE": 100,
+    "ALLOW_ODD_LOT_TRADING": false,
+    "ALLOW_FRACTIONAL_SHARES": false,
+    "RESIDUAL_CASH_INTEREST_RATE": 0.0,
+    "DIVIDEND_REINVESTMENT_POLICY": "Cash dividends credited to cash ledger in practical backtest; implicitly reinvested in theoretical adjusted-price backtest",
+    "REBALANCING_THRESHOLD_WEIGHT": 0.02,
+    "GRID_POINTS": 10001,
+    "HAC_MAX_LAGS": 5,
+    "ROLLING_BETA_WINDOWS": [
+      126,
+      252
+    ],
+    "BOOTSTRAP_PATHS": 10000,
+    "BOOTSTRAP_HORIZON_DAYS": 756,
+    "BOOTSTRAP_BLOCK_LENGTH": 10,
+    "COLOR_MAP": {
+      "VCB": "#1f77b4",
+      "DCM": "#2ca02c",
+      "VNINDEX": "#ff7f0e",
+      "PORTFOLIO_P": "#d62728",
+      "EQUAL_WEIGHT": "#9467bd",
+      "GMV": "#e377c2",
+      "MAX_SHARPE": "#8c564b",
+      "DEPOSIT": "#7f7f7f"
+    }
+  },
+  "library_versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "yfinance": "1.7.0",
+    "openpyxl": "3.1.5"
+  },
+  "data_metadata": {
+    "retrieval_timestamp": "2026-11-08 18:42:48",
+    "mode": "Online Primary Feed + Cross-Provider Audit",
+    "stock_adjusted_source": "DNSE Entrade OHLC API (Vietnam Exchange Official Adjusted Feed)",
+    "stock_unadjusted_source": "Yahoo Finance (yfinance VCB.VN, DCM.VN Unadjusted Close & Volume)",
+    "benchmark_source": "DNSE Entrade OHLC API (Vietnam Exchange Official Adjusted Feed)",
+    "price_unit_stocks": "VND per share",
+    "price_unit_benchmark": "Index points",
+    "stock_csv_path": "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\data\\raw\\stock_prices_raw.csv",
+    "bench_csv_path": "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\data\\raw\\market_benchmark_raw.csv"
+  },
+  "covariance_diagnostics": {
+    "is_symmetric": true,
+    "non_negative_diagonal": true,
+    "positive_semidefinite": true,
+    "eigenvalues_annualized": [
+      0.04760189383523555,
+      0.13509071436884848
+    ],
+    "correlation_in_bounds": true,
+    "unit_correlation_diagonal": true,
+    "pearson_correlation_vcb_dcm": 0.2529180908467961
+  },
+  "rebalance_metadata": {
+    "signal_date": "2026-10-30 (Post-Close)",
+    "earliest_execution_date": "2026-11-02 (Next Trading Session)",
+    "rolling_window_start": "2023-10-30",
+    "rolling_window_end": "2026-10-30",
+    "rolling_observations": 746,
+    "mu_updated_vcb": 0.024618705387630925,
+    "mu_updated_dcm": 0.18535933603924684,
+    "vol_updated_vcb": 0.22978948993569673,
+    "vol_updated_dcm": 0.3429122024561555,
+    "corr_updated": 0.2726644420288654
+  },
+  "saved_charts": [
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Adjusted_Closing_Prices.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Normalized_Performance.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Return_Distribution.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Normal_QQ_Plots.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Correlation_Heatmap.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Markowitz_Efficient_Frontier.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\CAL_and_Efficient_Frontier.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Indifference_Curves_and_Optimal_Portfolio.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Asset_Allocation_by_Portfolio.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\SML.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Beta_Regression_VCB.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Beta_Regression_DCM.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Out_of_Sample_NAV.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Out_of_Sample_Drawdown.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Weight_Drift.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Terminal_Wealth_Comparison.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Before_and_After_Rebalancing_Allocation.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Capital_and_Share_Allocation_Table.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Post_OOS_Rebalancing_Summary_Table.png",
+    "C:\\Users\\Acer\\OneDrive\\Documents\\FRM 2.0\\portfolio_analysis\\outputs\\figures\\Post_OOS_Trade_Execution_Table.png"
+  ]
+}

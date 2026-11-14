@@ -1,0 +1,65 @@
+Asset or Portfolio,Method,Confidence Level,Horizon,VaR Percentage,ES Percentage,VaR VND,ES VND,Tail Observation Count
+VCB,Historical Simulation (Linear Quantile),95%,1 Trading Day,0.019797979797979735,0.03232209940740959,989898.9898989868,1616104.9703704796,38
+VCB,Parametric Gaussian,95%,1 Trading Day,0.02376205724579984,0.02981924884601049,1188102.862289992,1490962.4423005246,38
+VCB,Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.06538894529735259,0.09140455666462223,3269447.2648676294,4570227.833231111,37
+VCB,Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.07458586019489645,0.09374038187560216,3729293.0097448225,4687019.093780108,37
+VCB,Historical Simulation (Linear Quantile),99%,1 Trading Day,0.03703692091306324,0.05622278463436135,1851846.0456531618,2811139.2317180675,8
+VCB,Parametric Gaussian,99%,1 Trading Day,0.033640842782040686,0.03855297223125272,1682042.1391020343,1927648.6115626362,8
+VCB,Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.10155574712643686,0.1357570885197138,5077787.356321843,6787854.42598569,8
+VCB,Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.10582532300574539,0.12135884022684382,5291266.15028727,6067942.011342191,8
+DCM,Historical Simulation (Linear Quantile),95%,1 Trading Day,0.035607446439516674,0.05216654162550562,1780372.3219758337,2608327.081275281,38
+DCM,Parametric Gaussian,95%,1 Trading Day,0.03676373498754375,0.046245025616297536,1838186.7493771873,2312251.280814877,38
+DCM,Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.09574318203848596,0.14504574211263885,4787159.101924298,7252287.105631943,37
+DCM,Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.11243995947293466,0.14242243301780658,5621997.973646733,7121121.650890329,37
+DCM,Historical Simulation (Linear Quantile),99%,1 Trading Day,0.06755068439841043,0.06953450726350659,3377534.2199205216,3476725.3631753293,8
+DCM,Parametric Gaussian,99%,1 Trading Day,0.052226946804216585,0.05991587758072031,2611347.3402108294,2995793.8790360154,8
+DCM,Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.18137100326574,0.22748277334187111,9068550.163286999,11374138.667093556,8
+DCM,Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.16133892875525088,0.18565346278036973,8066946.4377625445,9282673.139018487,8
+Portfolio P (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.03319615010533417,0.04811363041514518,1659807.5052667086,2405681.520757259,38
+Portfolio P (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.03357522683458652,0.04223362455130105,1678761.341729326,2111681.2275650525,38
+Portfolio P (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.08770341318671274,0.1346105611488979,4385170.6593356365,6730528.057444896,37
+Portfolio P (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.10270377432844621,0.13008403200086552,5135188.716422311,6504201.600043276,37
+Portfolio P (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.06070116550594552,0.0653219336344184,3035058.275297276,3266096.6817209204,8
+Portfolio P (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.047696367418603315,0.05471796640612495,2384818.370930166,2735898.3203062476,8
+Portfolio P (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.16792534368929155,0.2118487071783985,8396267.184464578,10592435.358919924,8
+Portfolio P (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.14735874173337962,0.16956298735028022,7367937.086668981,8478149.36751401,8
+Equal Weight (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.022423641138827097,0.03515777086306649,1121182.0569413549,1757888.5431533246,38
+Equal Weight (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.02423408582327872,0.030471765899351987,1211704.291163936,1523588.2949675994,38
+Equal Weight (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.06579795475455318,0.10032018624385368,3289897.737727659,5016009.312192684,37
+Equal Weight (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.07444813772572545,0.09417341408156935,3722406.8862862727,4708670.704078468,37
+Equal Weight (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.04180957099331942,0.05542000053736247,2090478.549665971,2771000.0268681236,8
+Equal Weight (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.0344072333448244,0.039465731411053154,1720361.6672412201,1973286.5705526576,8
+Equal Weight (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.12190364640607852,0.1582494581038129,6095182.320303926,7912472.905190646,8
+Equal Weight (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.10661845486670667,0.12261483029554682,5330922.743335334,6130741.514777341,8
+GMV Portfolio (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.018080093055759708,0.030706047638803982,904004.6527879854,1535302.381940199,38
+GMV Portfolio (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.02195664974721338,0.027582725746720684,1097832.487360669,1379136.2873360342,38
+GMV Portfolio (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.05577979332660798,0.08575540766155688,2788989.666330399,4287770.383077844,37
+GMV Portfolio (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.06813564596693834,0.08592686041458977,3406782.298346917,4296343.020729489,37
+GMV Portfolio (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.03700419916579148,0.054160616814868015,1850209.958289574,2708030.8407434006,8
+GMV Portfolio (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.031132320896164925,0.03569483359589919,1556616.0448082462,1784741.6797949597,8
+GMV Portfolio (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.09831358789839582,0.13710558324837566,4915679.394919791,6855279.162418783,8
+GMV Portfolio (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.09715166585831933,0.11157959784292354,4857583.292915966,5578979.892146177,8
+Maximum Sharpe (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.03560529265689804,0.052162704845693304,1780264.6328449019,2608135.2422846653,38
+Maximum Sharpe (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.036760653592001494,0.0462411493071382,1838032.6796000747,2312057.46535691,38
+Maximum Sharpe (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.09573560051649345,0.14503596832068577,4786780.025824673,7251798.416034289,37
+Maximum Sharpe (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.11243054132622818,0.14241050113352702,5621527.066311409,7120525.0566763505,37
+Maximum Sharpe (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.06754600431967214,0.06953012756563594,3377300.2159836073,3476506.378281797,8
+Maximum Sharpe (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.05222256896939004,0.05991085510414462,2611128.448469502,2995542.7552072313,8
+Maximum Sharpe (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.18135844231562562,0.22746820318917116,9067922.115781281,11373410.159458557,8
+Maximum Sharpe (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.16132541090755792,0.18563790639647465,8066270.545377896,9281895.319823733,8
+Maximum Utility Risky (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.026439661034183704,0.03990012726413817,1321983.0517091851,1995006.3632069086,38
+Maximum Utility Risky (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.027280492393473105,0.034310752830016056,1364024.6196736551,1715537.6415008027,38
+Maximum Utility Risky (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.07201109693945318,0.11271530754611152,3600554.8469726588,5635765.377305576,37
+Maximum Utility Risky (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.08357919639350739,0.10581083191715276,4178959.819675369,5290541.595857638,37
+Maximum Utility Risky (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.04812784616993479,0.05812673027515616,2406392.3084967397,2906336.513757808,8
+Maximum Utility Risky (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.038746273848052064,0.04444752148974329,1937313.692402603,2222376.0744871646,8
+Maximum Utility Risky (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.140466278523981,0.17786323489070066,7023313.92619905,8893161.744535033,8
+Maximum Utility Risky (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.11983718094369535,0.13786610899610316,5991859.047184767,6893305.449805158,8
+Optimal Complete Portfolio (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),95%,1 Trading Day,0.013019200810230405,0.019124755497357135,650960.0405115202,956237.7748678568,38
+Optimal Complete Portfolio (In-Sample Constant-Weight),Parametric Gaussian,95%,1 Trading Day,0.01344524077904979,0.016941178694336385,672262.0389524895,847058.9347168192,38
+Optimal Complete Portfolio (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),95%,10 Trading Days,0.03498680763603361,0.05405841265353148,1749340.3818016804,2702920.632676574,37
+Optimal Complete Portfolio (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),95%,10 Trading Days,0.040356121965793794,0.05141124833664021,2017806.0982896897,2570562.4168320103,37
+Optimal Complete Portfolio (In-Sample Constant-Weight),Historical Simulation (Linear Quantile),99%,1 Trading Day,0.02479735548676765,0.025529002005323806,1239867.7743383825,1276450.1002661902,8
+Optimal Complete Portfolio (In-Sample Constant-Weight),Parametric Gaussian,99%,1 Trading Day,0.019146830425302377,0.021981890089866892,957341.5212651188,1099094.5044933446,8
+Optimal Complete Portfolio (In-Sample Constant-Weight),Historical 10-Day Compounded (Overlapping Windows),99%,10 Trading Days,0.06894119860174452,0.08797267473976579,3447059.9300872264,4398633.736988289,8
+Optimal Complete Portfolio (In-Sample Constant-Weight),Parametric Gaussian (Square-Root-of-Time i.i.d.),99%,10 Trading Days,0.058386131531585686,0.0673513773740825,2919306.5765792844,3367568.8687041253,8
